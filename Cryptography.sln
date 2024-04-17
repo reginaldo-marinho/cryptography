@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cryptography", "Cryptography\Cryptography.csproj", "{5A6B1393-202F-46B0-9785-BC4EC4151486}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Managment", "Managment\Managment.csproj", "{5F9FC610-A5C7-498E-8F6B-5B7E19B3E800}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{76687821-989B-4071-A5B8-7CB809501B2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4D99CDA8-4C17-4513-B647-BE49B7986A87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D8B868ED-538C-4076-9A4A-7DA09368476C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A6B1393-202F-46B0-9785-BC4EC4151486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A6B1393-202F-46B0-9785-BC4EC4151486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A6B1393-202F-46B0-9785-BC4EC4151486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A6B1393-202F-46B0-9785-BC4EC4151486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F9FC610-A5C7-498E-8F6B-5B7E19B3E800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F9FC610-A5C7-498E-8F6B-5B7E19B3E800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F9FC610-A5C7-498E-8F6B-5B7E19B3E800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F9FC610-A5C7-498E-8F6B-5B7E19B3E800}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5A6B1393-202F-46B0-9785-BC4EC4151486} = {76687821-989B-4071-A5B8-7CB809501B2C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14EA74D6-218B-4550-8C27-ED0DDDB97E05}
+	EndGlobalSection
+EndGlobal
